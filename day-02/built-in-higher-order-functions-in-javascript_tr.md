@@ -27,7 +27,7 @@ console.log(birthYearsOfAge); // Puts an array which contains 2009, 2004, 1994, 
 ```
 
 ## reduce Fonksiyonu
-Reduce fonksiyonu, akümülatör sahip bir fonksiyondur. Bütün elemanları dolaşır, bir değer bekler. Fakat döndürdüğünüz değer, `map` fonksiyonundaki gibi bir diziye değil, akümülatör değişkenine etki eder. Reduce fonksiyonun sintaksı:
+Reduce fonksiyonu, akümülatör sahip bir fonksiyondur. Bütün elemanları dolaşır, bir değer bekler. Fakat döndürdüğünüz değer, `map` fonksiyonundaki gibi bir diziye değil, akümülatör değişkenine etki eder. Reduce fonksiyonun sözdizimi(syntax):
 `array.reduce((accumulator, currentValue, array), initialValueOfAccumulator)`
 
 Örneğin:
