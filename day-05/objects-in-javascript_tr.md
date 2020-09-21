@@ -1,5 +1,5 @@
 # JavaScript'te Object Veri Tipi
-JavaScript'te en çok kullanılan ve doğru kullanımığında da pek çok hata ile karşılaşılan bir veri türü object. Muhtemelen üzerinde de en çok yazı yazılmış.
+JavaScript'te en çok kullanılan ve doğru kullanımında da pek çok hata ile karşılaşılan bir veri türü object. Muhtemelen üzerinde de en çok yazı yazılmış.
 
 JavaScript'te her veri türü (primitifler de dahil) bir objeden türer. Her bir objenin bir `prototype` verisi olur, bu verinin içerisinde obje içersinde bulunan fonksiyonlar ve objeye ait bilgiler vardır. Örneğin,
 ```js
