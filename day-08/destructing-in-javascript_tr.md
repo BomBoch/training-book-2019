@@ -1,5 +1,5 @@
 # JavaScript'te Yıkarak Eşitleme
-Yıkarak eşitleme `Destructuring Assignment`, JavaScript'te bir arrayın elemanları veya bir objenin öznitelikleri için yapılan, bu verileri ayrık bir biçimde yazmamızı sağlayan bir sintakstır. ES6 ile gelen bir özelliktir.
+Yıkarak eşitleme `Destructuring Assignment`, JavaScript'te bir arrayın elemanları veya bir objenin öznitelikleri için yapılan, bu verileri ayrık bir biçimde yazmamızı sağlayan bir sözdizimidir(syntax). ES6 ile gelen bir özelliktir.
 
 ## Örnekler
 
@@ -19,7 +19,7 @@ console.log(first); // 5
 console.log(second); // 6
 console.log(third); // 7
 ```
-Yukarıdaki örnekte yazıldığı gibi bir sintaksa sahipsek, eşitlemenin sol tarafındaki değişken isimleri yazılış sırasıyla dizideki elemanları alır. Örneğin ikinci elemanı veya başka bir elemanı almak istemiyorsak aralarına yalnızca `,` işareti koyarız.
+Yukarıdaki örnekte yazıldığı gibi bir sözdizimine(syntax) sahipsek, eşitlemenin sol tarafındaki değişken isimleri yazılış sırasıyla dizideki elemanları alır. Örneğin ikinci elemanı veya başka bir elemanı almak istemiyorsak aralarına yalnızca `,` işareti koyarız.
 ```js
 const [first,,third,,sixth] = numbers;
 console.log(sixth); // 10
