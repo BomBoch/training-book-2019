@@ -13,7 +13,7 @@ Bir `Promise`'ın hangi durumda olduğunu anlamak için bazı terimler kullanır
 * finally(): İşlemin her durumunda çalışan fonksiyon.
 
 ## Bir Promise Objesi Oluşturmak
-Bir `Promise` objesi işlemin yapılacağı fonksiyonu parametre olarak alır. Bu fonksiyonun `resolve` ve `reject` adında iki `callback` fonksiyonu vardır. Bu fonksiyonlar işlem durumuna göre çalıştırılmalıdır. Eğer çalışmazsa, `Promise`, `pending` durumunda kalır. Eğer işlem bittiyse `resolve`, bir hata varsa `reject` fonksiyonunu çalıştırırız. Bu fonksiyonlara verilen parametreler direk olarak aktarılır.
+Bir `Promise` objesi işlemin yapılacağı fonksiyonu parametre olarak alır. Bu fonksiyonun `resolve` ve `reject` adında iki `callback` fonksiyonu vardır. Bu fonksiyonlar işlem durumuna göre çalıştırılmalıdır. Eğer çalışmazsa, `Promise`, `pending` durumunda kalır. Eğer işlem bittiyse `resolve`, bir hata varsa `reject` fonksiyonunu çalıştırırız. Bu fonksiyonlara verilen parametreler direkt olarak aktarılır.
 
 ```js
 async function awesomeAsyncFunction() {
@@ -24,7 +24,7 @@ async function awesomeAsyncFunction() {
 }
 ```
 
-Yapılan uzun işlemler sonucunda eğer işlem başarısızsa `reject` fonksiyonunu çalıştırırız. Örneğin, uzak sunucuya bağlanayamadığımızda veya bir dosyaya veri yazamadığımızda. Örneğin bunu çalıştırılaım:
+Yapılan uzun işlemler sonucunda eğer işlem başarısızsa `reject` fonksiyonunu çalıştırırız. Örneğin, uzak sunucuya bağlayamadığımızda veya bir dosyaya veri yazamadığımızda. Örneğin bunu çalıştırılaım:
 
 ```js
 awesomeAsyncFunction().then((response) => {
