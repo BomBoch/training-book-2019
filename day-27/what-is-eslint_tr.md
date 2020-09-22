@@ -17,7 +17,7 @@ const minutesToSeconds = (minutes) => minutes * SECONDS_IN_A_MINUTE;
 ```
 
 ### no-new-object
-Bu kural `new Object` sintaksını kabul etmez.
+Bu kural `new Object` sözdizimi(syntax) kabul etmez.
 ```js
 const o1 = new Object(); // bad
 const o2 = {}; // good
